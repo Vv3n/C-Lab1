@@ -2,17 +2,14 @@
 #include <stdlib.h>
 
 int *GetSet( int *num);
-
 int main(){
     int *data, num;
     data = GetSet(&num);
-
     for(int i = 0; i < num; i++){
         printf("%d ", data[i]);
     }
     return 0;
 }
-
 int *GetSet( int *num){
     static int arr[100];
     printf("Enter number of elements: ");\
