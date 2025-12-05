@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int *GetSet( int *num);
 int main(){
@@ -23,3 +22,4 @@ int *GetSet( int *num){
     }
     return arr;
 }
+
